@@ -1,0 +1,172 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "090a8e41-87a8-4fb1-998b-60a2c0dc4cee")
+	(paper "A4")
+	(title_block
+		(title "ModuCard base module")
+		(date "2025-02-18")
+		(rev "1.0.0")
+		(company "KoNaR")
+		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
+		(comment 2 "Project author: <author>")
+	)
+	(lib_symbols)
+	(bus_alias "CAN"
+		(members "+" "-")
+	)
+	(no_connect
+		(at 81.28 82.55)
+		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")
+	)
+	(no_connect
+		(at 81.28 88.9)
+		(uuid "4102e771-06b2-46c5-8768-1c4b40e21eea")
+	)
+	(no_connect
+		(at 81.28 96.52)
+		(uuid "b3c7e6b3-59d6-467d-a4c3-b7bb1d57cd13")
+	)
+	(sheet
+		(at 39.37 95.25)
+		(size 16.51 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "586b059c-8adb-4b5f-91ef-9fff6d0411fe")
+		(property "Sheetname" "converter"
+			(at 39.37 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "converter.kicad_sch"
+			(at 39.37 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TPB"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 41.91)
+		(size 25.4 99.06)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff3476d7-2f10-4f79-9864-988601c7ce1b")
+		(property "Sheetname" "Backplane"
+			(at 81.28 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "backplane.kicad_sch"
+			(at 81.28 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIOC[0..15]" input
+			(at 81.28 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "590059fb-ce6b-4594-a8d9-5ea16c12e994")
+		)
+		(pin "GPIOL[0..15]" input
+			(at 81.28 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1244bff8-cc00-45c3-ad70-38099735e42f")
+		)
+		(pin "GPIOR[0..15]" input
+			(at 81.28 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78f6447e-cc35-4bff-9181-e28e763cd973")
+		)
+		(pin "CAN1{CAN}" bidirectional
+			(at 106.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5cc3410-a9f9-4327-97b1-b02ad5c607a0")
+		)
+		(pin "CAN2{CAN}" bidirectional
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1bb521b1-9157-430e-bc39-7309cc0c519b")
+		)
+		(pin "BACKPLANE{USB}" output
+			(at 106.68 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "de418b66-6533-4278-9c6e-995fea317169")
+		)
+		(instances
+			(project "TPB"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

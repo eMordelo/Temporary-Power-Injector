@@ -453,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "base-module.kicad_pro",
+    "filename": "TPB.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -692,43 +692,15 @@
   "sheets": [
     [
       "090a8e41-87a8-4fb1-998b-60a2c0dc4cee",
-      "Root"
+      "Główny"
     ],
     [
       "ff3476d7-2f10-4f79-9864-988601c7ce1b",
       "Backplane"
     ],
     [
-      "3f372eb1-53a4-4b00-8846-6751dd401eeb",
-      "Power"
-    ],
-    [
-      "ae074854-c02c-496b-964f-ecb8956e53f8",
-      "MCU"
-    ],
-    [
-      "3f4a4c31-63d6-4264-8452-81b45fffd897",
-      "CAN transceiver 1"
-    ],
-    [
-      "0158e235-e8c1-4e7e-a900-a22642d17049",
-      "CAN transceiver 2"
-    ],
-    [
-      "ed5910e5-42de-4923-b023-9e23a66937d0",
-      "ST-LINK"
-    ],
-    [
-      "8fd5ae83-0658-4178-9e81-18085647e2bb",
-      "USB"
-    ],
-    [
-      "c4e62f69-aed8-45c4-bc74-414bd9b2dcad",
-      "USB-hub"
-    ],
-    [
-      "e8ac371f-5104-4cae-bf76-5dce1f5864c3",
-      "QSPI FLASH"
+      "586b059c-8adb-4b5f-91ef-9fff6d0411fe",
+      "converter"
     ]
   ],
   "text_variables": {

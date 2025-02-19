@@ -10435,6 +10435,7 @@
 	)
 	(label "USER_LED_1"
 		(at 100.33 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10445,6 +10446,7 @@
 	)
 	(label "CAN2.RX"
 		(at 171.45 120.65 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10455,6 +10457,7 @@
 	)
 	(label "OSC32_IN"
 		(at 275.59 118.11 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10465,6 +10468,7 @@
 	)
 	(label "CAN1.RX"
 		(at 100.33 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10475,6 +10479,7 @@
 	)
 	(label "CAN1.TX"
 		(at 100.33 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10485,6 +10490,7 @@
 	)
 	(label "STATUS_LED"
 		(at 247.65 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10495,6 +10501,7 @@
 	)
 	(label "+VDDA"
 		(at 146.05 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10505,6 +10512,7 @@
 	)
 	(label "OSC32_OUT"
 		(at 243.84 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10515,6 +10523,7 @@
 	)
 	(label "USR_BUTTON"
 		(at 100.33 85.09 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10525,6 +10534,7 @@
 	)
 	(label "USR_BTN"
 		(at 30.48 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10535,6 +10545,7 @@
 	)
 	(label "USER_LED_1"
 		(at 247.65 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10545,6 +10556,7 @@
 	)
 	(label "QSPI1.IO2"
 		(at 205.74 24.13 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10555,6 +10567,7 @@
 	)
 	(label "USB_MCU.D+"
 		(at 171.45 77.47 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10565,6 +10578,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 43.18 177.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10575,6 +10589,7 @@
 	)
 	(label "NRST"
 		(at 21.59 177.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10585,6 +10600,7 @@
 	)
 	(label "SWD.SWDIO"
 		(at 205.74 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10595,6 +10611,7 @@
 	)
 	(label "USB_MCU.D-"
 		(at 205.74 44.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10605,6 +10622,7 @@
 	)
 	(label "OSC32_IN"
 		(at 170.18 168.91 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10615,6 +10633,7 @@
 	)
 	(label "OSC_OUT"
 		(at 276.86 143.51 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10625,6 +10644,7 @@
 	)
 	(label "QSPI1.IO3"
 		(at 205.74 26.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10635,6 +10655,7 @@
 	)
 	(label "QSPI1.IO1"
 		(at 205.74 21.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10645,6 +10666,7 @@
 	)
 	(label "I2C1.SDA"
 		(at 171.45 113.03 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10655,6 +10677,7 @@
 	)
 	(label "QSPI1.SCLK"
 		(at 205.74 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10665,6 +10688,7 @@
 	)
 	(label "I2C1.SCL"
 		(at 171.45 110.49 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10675,6 +10699,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 205.74 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10685,6 +10710,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 205.74 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10695,6 +10721,7 @@
 	)
 	(label "QSPI1.IO0"
 		(at 100.33 140.97 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10705,6 +10732,7 @@
 	)
 	(label "BOOT_EN"
 		(at 171.45 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10715,6 +10743,7 @@
 	)
 	(label "OSC32_OUT"
 		(at 170.18 171.45 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10725,6 +10754,7 @@
 	)
 	(label "CAN1.RX"
 		(at 205.74 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10735,6 +10765,7 @@
 	)
 	(label "CAN2.RX"
 		(at 205.74 57.15 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10745,6 +10776,7 @@
 	)
 	(label "QSPI1.CS"
 		(at 205.74 29.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10755,6 +10787,7 @@
 	)
 	(label "OSC_OUT"
 		(at 100.33 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10765,6 +10798,7 @@
 	)
 	(label "QSPI1.IO3"
 		(at 100.33 146.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10775,6 +10809,7 @@
 	)
 	(label "VCAP_1"
 		(at 100.33 156.21 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10785,6 +10820,7 @@
 	)
 	(label "BOOT0"
 		(at 102.87 52.07 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10795,6 +10831,7 @@
 	)
 	(label "OSC_IN"
 		(at 100.33 62.23 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10805,6 +10842,7 @@
 	)
 	(label "USER_LED_2"
 		(at 264.16 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10815,6 +10853,7 @@
 	)
 	(label "QSPI1.IO0"
 		(at 205.74 19.05 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10825,6 +10864,7 @@
 	)
 	(label "CAN2.TX"
 		(at 205.74 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10835,6 +10875,7 @@
 	)
 	(label "USR_BUTTON"
 		(at 50.8 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10845,6 +10886,7 @@
 	)
 	(label "SWD.SWDIO"
 		(at 171.45 80.01 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10855,6 +10897,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 102.87 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10865,6 +10908,7 @@
 	)
 	(label "QSPI1.CS"
 		(at 171.45 115.57 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10875,6 +10919,7 @@
 	)
 	(label "USER_LED_2"
 		(at 100.33 80.01 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10885,6 +10930,7 @@
 	)
 	(label "OSC_IN"
 		(at 243.84 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10895,6 +10941,7 @@
 	)
 	(label "USB_MCU.D-"
 		(at 171.45 74.93 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10905,6 +10952,7 @@
 	)
 	(label "VCAP_2"
 		(at 100.33 158.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10915,6 +10963,7 @@
 	)
 	(label "STATUS_LED"
 		(at 100.33 82.55 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10925,6 +10974,7 @@
 	)
 	(label "BOOT0"
 		(at 50.8 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10935,6 +10985,7 @@
 	)
 	(label "QSPI1.SCLK"
 		(at 171.45 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10945,6 +10996,7 @@
 	)
 	(label "BOOT_EN"
 		(at 20.32 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10955,6 +11007,7 @@
 	)
 	(label "USB_MCU.D+"
 		(at 205.74 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10965,6 +11018,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 171.45 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10975,6 +11029,7 @@
 	)
 	(label "CAN2.TX"
 		(at 171.45 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10985,6 +11040,7 @@
 	)
 	(label "QSPI1.IO2"
 		(at 100.33 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10995,6 +11051,7 @@
 	)
 	(label "CAN1.TX"
 		(at 205.74 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11005,6 +11062,7 @@
 	)
 	(label "QSPI1.IO1"
 		(at 100.33 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11016,6 +11074,7 @@
 	(hierarchical_label "CAN2{RX TX}"
 		(shape input)
 		(at 224.79 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11027,6 +11086,7 @@
 	(hierarchical_label "USB_MCU{USB}"
 		(shape input)
 		(at 224.79 50.8 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11038,6 +11098,7 @@
 	(hierarchical_label "SWD{SWD}"
 		(shape input)
 		(at 224.79 90.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11049,6 +11110,7 @@
 	(hierarchical_label "QSPI1{QSPI}"
 		(shape bidirectional)
 		(at 224.79 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11060,6 +11122,7 @@
 	(hierarchical_label "CAN1{RX TX}"
 		(shape input)
 		(at 224.79 74.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

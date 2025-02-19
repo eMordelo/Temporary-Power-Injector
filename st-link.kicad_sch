@@ -6882,6 +6882,7 @@
 	)
 	(label "STLINK_RX"
 		(at 127 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6892,6 +6893,7 @@
 	)
 	(label "STLINK-BOOT0"
 		(at 190.5 97.79 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6902,6 +6904,7 @@
 	)
 	(label "SWO"
 		(at 127 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6912,6 +6915,7 @@
 	)
 	(label "ST-LINK.D-"
 		(at 127 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6922,6 +6926,7 @@
 	)
 	(label "USB_RENUM"
 		(at 127 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6932,6 +6937,7 @@
 	)
 	(label "SWD.SWDIO"
 		(at 114.3 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6942,6 +6948,7 @@
 	)
 	(label "STLINK_TX"
 		(at 127 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6952,6 +6959,7 @@
 	)
 	(label "STLINK-BOOT0"
 		(at 64.77 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6962,6 +6970,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 114.3 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6972,6 +6981,7 @@
 	)
 	(label "SWD.SWDIO"
 		(at 40.64 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6982,6 +6992,7 @@
 	)
 	(label "CLK"
 		(at 190.5 105.41 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6992,6 +7003,7 @@
 	)
 	(label "LED"
 		(at 127 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7002,6 +7014,7 @@
 	)
 	(label "LED"
 		(at 167.64 102.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7012,6 +7025,7 @@
 	)
 	(label "STLINK-RST"
 		(at 67.31 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7022,6 +7036,7 @@
 	)
 	(label "STLINK-OSC_OUT"
 		(at 63.5 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7032,6 +7047,7 @@
 	)
 	(label "ST-LINK.D+"
 		(at 127 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7042,6 +7058,7 @@
 	)
 	(label "USB_RENUM"
 		(at 270.51 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7052,6 +7069,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 114.3 115.57 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7062,6 +7080,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 127 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7072,6 +7091,7 @@
 	)
 	(label "STLINK-OSC_IN"
 		(at 63.5 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7082,6 +7102,7 @@
 	)
 	(label "ST-LINK.D+"
 		(at 242.57 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7092,6 +7113,7 @@
 	)
 	(label "SWD.~{RST}"
 		(at 55.88 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7102,6 +7124,7 @@
 	)
 	(label "SWD.SWCLK"
 		(at 40.64 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7112,6 +7135,7 @@
 	)
 	(label "DIO"
 		(at 190.5 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7122,6 +7146,7 @@
 	)
 	(label "CLK"
 		(at 127 99.06 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7132,6 +7157,7 @@
 	)
 	(label "DIO"
 		(at 127 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7143,6 +7169,7 @@
 	(hierarchical_label "SWD{SWD}"
 		(shape output)
 		(at 133.35 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,6 +7181,7 @@
 	(hierarchical_label "ST-LINK{USB}"
 		(shape input)
 		(at 133.35 100.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
