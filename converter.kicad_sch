@@ -1877,6 +1877,175 @@
 				)
 			)
 		)
+		(symbol "XT60PW-F:XT60PW-F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 11.176 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT60PW-F"
+				(at 11.176 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "XT60PWF"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 12.192 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "8.4"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT60PW-F"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT60PW-F_1_1"
+				(rectangle
+					(start 11.43 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 15.24 -10.16 90)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -2245,6 +2414,12 @@
 		(uuid "73c2eb12-d991-4d66-bdd8-f8fe044cd3b8")
 	)
 	(junction
+		(at 82.55 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76eedf61-a973-4eb4-b356-58839cb6c218")
+	)
+	(junction
 		(at 99.06 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2261,6 +2436,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa5e5ad0-8fab-404a-9176-91488c3de0ab")
+	)
+	(junction
+		(at 71.12 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7602eb3-a70c-4db2-87c2-fcd253a80f57")
 	)
 	(junction
 		(at 163.83 69.85)
@@ -2356,6 +2537,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 81.28) (xy 71.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2edde18d-0cbf-40d8-8b89-fd74b5fc753b")
+	)
+	(wire
+		(pts
 			(xy 110.49 77.47) (xy 118.11 77.47)
 		)
 		(stroke
@@ -2363,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "3dd1ccef-a3f7-4d65-93f5-43c6e8ba8029")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 71.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cc148c-c499-4d38-be23-6898ed9b4faa")
 	)
 	(wire
 		(pts
@@ -2383,6 +2584,16 @@
 			(type default)
 		)
 		(uuid "48940538-7ba0-4638-9684-4130883b50d5")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49404852-7184-4a66-aafe-9f3684a5014c")
 	)
 	(wire
 		(pts
@@ -2443,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "85810bfd-c8e3-4d75-bfb7-781e038eea93")
+	)
+	(wire
+		(pts
+			(xy 71.12 80.01) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8603b81a-d773-4dfa-8e80-eac7960b9fbe")
 	)
 	(wire
 		(pts
@@ -3449,6 +3670,129 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/586b059c-8adb-4b5f-91ef-9fff6d0411fe"
 					(reference "C420")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT60PW-F:XT60PW-F")
+		(at 48.26 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54136fa6-e4cc-4c2e-9098-074d978009cc")
+		(property "Reference" "J400"
+			(at 62.865 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-F"
+			(at 62.865 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "XT60PWF"
+			(at 67.31 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf"
+			(at 67.31 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 54.61 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8.4"
+			(at 67.31 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 67.31 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 67.31 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 67.31 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT60PW-F"
+			(at 67.31 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99a8672b-8b61-4b50-b429-b0f009a7651c")
+		)
+		(pin "2"
+			(uuid "5bdf7c6a-06fb-44ab-b5da-8f390ead670e")
+		)
+		(pin "0"
+			(uuid "42926d94-1257-4889-b2ab-c3130f01243b")
+		)
+		(instances
+			(project ""
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/586b059c-8adb-4b5f-91ef-9fff6d0411fe"
+					(reference "J400")
 					(unit 1)
 				)
 			)
@@ -4858,6 +5202,72 @@
 			(project ""
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/586b059c-8adb-4b5f-91ef-9fff6d0411fe"
 					(reference "C419")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfb93d6a-ae71-4071-9da4-9af43b6066f3")
+		(property "Reference" "#PWR0401"
+			(at 71.12 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7fef941-850d-4a3e-87c7-18de638dfc17")
+		)
+		(instances
+			(project "TPB"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/586b059c-8adb-4b5f-91ef-9fff6d0411fe"
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
