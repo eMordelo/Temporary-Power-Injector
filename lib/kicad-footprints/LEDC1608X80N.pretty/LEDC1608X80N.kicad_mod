@@ -1,0 +1,233 @@
+(footprint "LEDC1608X80N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LTST-C190KRKT")
+	(tags "LED")
+	(property "Reference" "LED**"
+		(at 0.5 -2 0)
+		(layer "F.SilkS")
+		(uuid "db689114-cce0-4dd5-8bb1-7ee1187a53ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "LEDC1608X80N"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "519ae0c3-6610-4853-a376-ea1761f39168")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95dc3e7f-d795-4d18-bba4-5fa59304b24c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "388f8728-978e-43dc-98d9-155b85a3a3cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc6973df-55e4-4450-ae8e-e8df68fc040a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 -0.825)
+		(end -1.6 0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cab7f5c5-a555-4ae5-b652-5bebe3927a79")
+	)
+	(fp_line
+		(start -1.6 0.825)
+		(end 0.8 0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0255e516-dce5-4ef8-97ba-5b6c3a26dfcb")
+	)
+	(fp_line
+		(start 0.8 -0.825)
+		(end -1.6 -0.825)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58f57405-f37a-4e0c-bb23-5f9f1b0389db")
+	)
+	(fp_line
+		(start -1.7 -0.925)
+		(end 1.7 -0.925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcd6689a-6d1e-4484-a061-eb969cc884cc")
+	)
+	(fp_line
+		(start -1.7 0.925)
+		(end -1.7 -0.925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3fe16659-22f4-4ec4-aebc-3e99277fa130")
+	)
+	(fp_line
+		(start 1.7 -0.925)
+		(end 1.7 0.925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "164f2712-b1ef-4e16-8f4e-7eab01cf40af")
+	)
+	(fp_line
+		(start 1.7 0.925)
+		(end -1.7 0.925)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dd73810c-4939-425e-8ad1-7bbef9d57de9")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ebcaa30-1eb7-45aa-971f-73018c4b3713")
+	)
+	(fp_line
+		(start -0.8 -0.133)
+		(end -0.533 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4dabab5-32b2-49cd-90f1-35a8e5971c90")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5eba6dc-6afc-4921-ae67-2f5e8c6c0331")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a41a492b-88aa-4281-b2aa-6318f6bac222")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cd89c43-c323-4b21-91a8-74d91f464b0b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "afd80d89-e45d-4cd6-8d55-9d2017f16d00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7ffd3bd7-8995-49c7-9bd3-74939fcc3970")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.9 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "739971a9-050b-44ee-bdd2-dfc827f0285a")
+	)
+	(model "LTST-C190KRKT.stp"
+		(offset
+			(xyz -0.02999999888 0 0.279999997)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -180 -90)
+		)
+	)
+	(model "${KIPRJMOD}/lib/kicad-3d-models/LTST-C190KRKT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
