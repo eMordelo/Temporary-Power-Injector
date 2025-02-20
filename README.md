@@ -1,4 +1,4 @@
-# ModuCard Base Module
+# Temporary Power Injector
 
 This board uses ModuCard System! If you want to make yourself something more intresting, don't hesitate and check [ModuCard System page](https://github.com/KoNarRobotics/ModuCard-base-module).
 
